@@ -1,5 +1,5 @@
 {
-  "name": "log",
+  "name": "colorlog",
   "description": "Color logger with streaming reader",
   "version": "0.0.1",
   "author": "Andriy Bazyuta <andriy.bazyuta@gmail.com>",
