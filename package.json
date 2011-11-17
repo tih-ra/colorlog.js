@@ -1,7 +1,7 @@
 {
   "name": "colorlog",
   "description": "Color logger with streaming reader",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "author": "Andriy Bazyuta <andriy.bazyuta@gmail.com>",
   "keywords": ["log", "logger", "color"],
   "main": "./lib/colorlog.js",

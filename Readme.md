@@ -1,8 +1,43 @@
 
 # Colorlog.js
- ALPHA VERSIO
+ 
  Light-weight color logging for [NodeJS](http://nodejs.org), including a 
  streaming log reader.
+
+## Installation
+
+    $ npm install colorlog
+
+## Example
+
+Colorlog level defaults to DEBUG however here we can specify another level, for example WARNING, and just watch logs levels are >= from WARNING.
+
+    var Colorlog = require('colorlog')
+      , colorlog = new Colorlog('debug');
+
+    colorlog.debug('debug message');
+    colorlog.info('info message');
+    colorlog.error('failed to something');
+
+
+ Also possible to use `%s` much like `console.log()` to pass arguments:
+
+     colorlog.info('hello from user %s.', user.email);
+
+## Screenshot
+
+![colorlog screenshot](https://img.skitch.com/20111117-1cmfnnd985ewys6kcy994hk6sj.jpg)
+
+## Colorlog Levels
+
+  - 0 EMERGENCY
+  - 1 ALERT
+  - 2 CRITICAL
+  - 3 ERROR
+  - 4 WARNING
+  - 5 NOTICE
+  - 6 INFO
+  - 7 DEBUG
 
 
 ## License 
