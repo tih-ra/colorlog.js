@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/tih-ra/colorlog.js.png)](http://travis-ci.org/tih-ra/colorlog.js)
 
 # Colorlog.js
  
